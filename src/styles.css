@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "welcome-font";
+  src: url(assets/font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "h";
+  src: url(assets/font/Monoton-Regular.ttf);
+}
+body {
+  font-family: welcome-font;
+}

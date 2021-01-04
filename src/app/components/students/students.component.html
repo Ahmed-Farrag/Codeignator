@@ -1,0 +1,13 @@
+<div class="body mt-5" id="Excellent">
+  <h1 class="upper text-center mb-5"> <i class="fas fa-graduation-cap"></i> Excellent Students</h1>
+  <div class="row">
+    <div class="col col-12 col-md-6 col-lg-4" *ngFor="let student of students">
+      <div class="person text-center">
+        <div class="team-img" >
+          <img [src]="student.photoUrl" class="img-fluid" >
+          <h3 class="card-title">{{student.name | titlecase}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

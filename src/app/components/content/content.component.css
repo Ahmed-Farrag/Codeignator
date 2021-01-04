@@ -1,0 +1,12 @@
+.content {
+  padding: 50px;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
+@media (max-width: 300px) {
+  h3 {
+    font-size: 10px;
+  }
+}

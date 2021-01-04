@@ -1,0 +1,18 @@
+<ngb-carousel #carousel [interval]="2000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+  <ng-template ngbSlide *ngFor="let img of images; index as i">
+
+
+    <div class="carousel-caption text-left" @slide @fade>
+      <h1 class="text-center">Our Mission</h1>
+      <h3>Contribute to building an integrated generation of personality with high values, capable of learning, creativity and innovation, fulfilling the requirements of development,
+         and keeping pace with future challenges, within an inspiring, educational and technically advanced research environment to achieve their aspirations and contribute to community service.</h3>
+
+    </div>
+
+    <div class="picsum-img-wrapper ">
+      <img [src]="img" alt="My image {{i + 1}} description" style="width: 1600px;" height="650px">
+    </div>
+
+
+  </ng-template>
+</ngb-carousel>

@@ -1,0 +1,18 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .col {
+  text-align: left;
+}
+.footer p {
+  color: white;
+}
+.footer p {
+  display: inline-block;
+  margin: 5px;
+}
+.copy {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
